@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background: url(http://www.nine-group.com/9international/wp-content/uploads/2020/04/compney-profile.jpg);
+    padding: 80px 0;
+    background-size: cover !important;
+}
+
+.header .heading{
+    margin-left: 150px;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    width: fit-content;
+    font-size: 34px;
+}
+
+.company_desc{
+    margin: auto;
+    width: 80%;
+    color:#6c7178;
+    line-height: 40px;
+}
+
+.dosAndDonts{
+    display: flex;
+}
+
