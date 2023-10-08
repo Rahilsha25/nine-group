@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NINE International</title>
+  <link rel="stylesheet" href="./layout/layout.css">
+  <link rel="stylesheet" href="./swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./shared/footer.css" />
+  <link rel="stylesheet" href="./shared/navbar.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./StudyAbroad/countries.css" />
+  <script src=".layout/layout.js"></script>
+</head>
+
+<body>
+
+  <div class="topBanner">
+    <div class="topBanner_leftSection">
+      <div class="topBanner_timings">
+        <div>Open Hours: Monday to Saturday- 10.00 AM to 06.30 PM</div>
+      </div>
+    </div>
+    <div class="topBanner_rightSection">
+      <a href="./contact/contact.html"><button><b>FREE COUNSELLING</b></button></a>
+      <a href="https://www.facebook.com/nineinternational/" target="_blank" class="fa fa-facebook social-links"></a>
+      <a href="https://www.instagram.com/nine_international/" target="_blank" class="fa fa-instagram social-links"></a>
+      <a href="https://www.linkedin.com/company/nine-international/" target="_blank" class="fa fa-linkedin social-links"></a>
+      <a href="https://www.youtube.com/channel/UCkJprx443Zy01p9HN39sbOQ" target="_blank" class="fa fa-youtube social-links"></a>
+    </div>
+  </div>
+  <div class="topnav">
+    <a href="./layout/layout.html"><img src="./assets/nine_logo.png" /></a>
+    <a class="active" href="./layout/layout.html">Home</a>
+    <div class="aboutDropdown">
+      <button class="dropbtn">About
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./About/about.html">Company Profile</a>
+        <a href="./About/founderMsg.html">Message from Founder</a>
+        <a href="./About/team.html">Meet Our Team</a>
+      </div>
+    </div>
+    <a href="./Services/services.html">Products</a>
+    <div class="aboutDropdown">
+      <button class="dropbtn">Study Abroad
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./StudyAbroad/australia.html">Australia</a>
+        <a href="./StudyAbroad/canada.html">Canada</a>
+        <a href="./StudyAbroad/newZealand.html">New Zealand</a>
+        <a href="./StudyAbroad/uk.html">UK</a>
+        <a href="./StudyAbroad/usa.html">USA</a>
+        <a href="./StudyAbroad/europe.html">Europe</a>
+        <a href="./StudyAbroad/dubai.html">Dubai</a>
+      </div>
+    </div>
+    <div class="aboutDropdown">
+      <button class="dropbtn">Test Preparation
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./TestPrep/ielts_preperation.html">IELTS</a>
+        <a href="./TestPrep/pte_preperation.html">PTE</a>
+        <a href="./TestPrep/duolingo_preperation.html">DuoLingo</a>
+        <a href="./TestPrep/spoken_english.html">Spoken English</a>
+      </div>
+    </div>
+    <a href="./Visa/visa_overview.html">Visa</a>
+    <a href="./Testimonials/testimonials.html">Testimonials</a>
+    <div class="aboutDropdown">
+      <button class="dropbtn">Contact Us
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./contact/contact.html">Contact</a>
+        <a href="./contact/faq.html">FAQ</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <div class="gallery_1">
+      <img name="slide" />
+      <h2 id="slide_heading"></h2>
+      <h4 id="slide_text"></h4>
+    </div>
+    <div class="shadow"></div>
+  </div>
+
+  <div class="cardSection">
+    <div class="cardSectionHeading">
+      <div class="first">Welcome to NINE International</div>
+      <div class="second">Your One-Stop Solution For studying Abroad.</div>
+    </div>
+
+    <!-- COUNTRY CAROUSEL -->
+      <div class="countryInformation">
+        <div class="tab">
+          <button class="tablinks1" onclick="openNewTab(event, 'Australia')">Australia</button>
+          <button class="tablinks1" onclick="openNewTab(event, 'Canada')">Canada</button>
+          <button class="tablinks1" onclick="openNewTab(event, 'NewZealand')">New Zealand</button>
+          <button class="tablinks1" onclick="openNewTab(event, 'UK')">UK</button>
+          <button class="tablinks1" onclick="openNewTab(event, 'USA')">USA</button>
+          <button class="tablinks1" onclick="openNewTab(event, 'Europe')">Europe</button>
+          <button class="tablinks1" onclick="openNewTab(event, 'Dubai')">Dubai</button>
+        </div>
+
+        <div id="Australia" class="tabcontent1">
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/australia_std-1.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/australia.html"><h3>Student Visa</h3></a>
+            </div>
+          </div>
+
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/australia_Dependent-Visa.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/australia.html"><h3>Dependent Visa</h3></a>
+            </div>
+          </div>
+
+          <div>
+
+          </div>
+        </div>
+
+        <div id="Canada" class="tabcontent1">
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="../assets/canada_std_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/canada.html"><h3>Student Visa</h3></a>
+            </div>
+          </div>
+
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/canada_Dependent-Visa_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/canada.html"><h3>Dependent Visa</h3></a>
+            </div>
+          </div>
+
+          <div>
+
+          </div>
+        </div>
+
+        <div id="NewZealand" class="tabcontent1">
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="../assets/newzealand_std_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/newZealand.html"><h3>Student Visa</h3></a>
+            </div>
+          </div>
+
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/newzealand_Dependent-Visa.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/newZealand.html"><h3>Dependent Visa</h3></a>
+            </div>
+          </div>
+
+          <div>
+
+          </div>
+        </div>
+
+        <div id="UK" class="tabcontent1">
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="../assets/uk_std_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/uk.html"><h3>Student Visa</h3></a>
+            </div>
+          </div>
+
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/ukk_Dependent-Visa.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/uk.html"><h3>Dependent Visa</h3></a>
+            </div>
+          </div>
+
+          <div>
+
+          </div>
+        </div>
+
+        <div id="USA" class="tabcontent1">
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/usa_std_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/usa.html"><h3>Student Visa</h3></a>
+            </div>
+          </div>
+
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/usa_Dependent-Visa_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/usa.html"><h3>Dependent Visa</h3></a>
+            </div>
+          </div>
+        </div>
+        <div id="Europe" class="tabcontent1">
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/usa_std_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/usa.html"><h3>Student Visa</h3></a>
+            </div>
+          </div>
+
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/usa_Dependent-Visa_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/usa.html"><h3>Dependent Visa</h3></a>
+            </div>
+          </div>
+        </div>
+        <div id="Dubai" class="tabcontent1">
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/newzealand_std_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/usa.html"><h3>Student Visa</h3></a>
+            </div>
+          </div>
+
+          <div class="countryVisa">
+            <div class="countryImg">
+              <img src="./assets/newzealand_std_2.jpg" />
+            </div>
+
+            <div class="coutryVisaTitle">
+              <a href="./StudyAbroad/usa.html"><h3>Dependent Visa</h3></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- END COUNTRY CAROUSEL -->
+
+    <div class="section">
+      <div class="border">
+        <div class="left_side">
+          <h6>
+            Reach Your Dream Destination
+          </h6>
+          <h2>Get the Right Help</h2>
+          <div>We can make your overseas education dream come True</div>
+          <div class="pattern-class"
+            style="background-image: url(https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/02/shape-4.png);">
+          </div>
+          <div class="left_sideBTN">
+            <button><a href="./About/about.html">More Details ></a></button>
+          </div>
+        </div>
+        <div class="right_side">
+          <ul>
+            <li>
+              <span><img src="./assets/star-removebg-preview.png" /></span>
+              Australia
+            </li>
+            <li>
+              <span><img src="./assets/star-removebg-preview.png" /></span>
+              Canada
+            </li>
+            <li><span><img src="./assets/star-removebg-preview.png" /></span>New Zealand</li>
+            <li><span><img src="./assets/star-removebg-preview.png" /></span>UK</li>
+            <li><span><img src="./assets/star-removebg-preview.png" /></span>USA</li>
+            <li><span><img src="./assets/star-removebg-preview.png" /></span>Europe</li>
+            <li><span><img src="./assets/star-removebg-preview.png" /></span>Dubai</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </div>
+
+
+  <div class="cardSection">
+    <div class="cardSectionHeading">
+      <div class="first">WHY NINE INTERNATIONAL?</div>
+    </div>
+  </div>
+
+  <div class="facilities">
+    <div class="facility">
+      <div class="facility_img">
+        <img
+          src="https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/03/job-interview-1.svg" /></div>
+      <div class="facility_heading">
+        <h4 id="fourThousand">4000+</h4>
+      </div>
+      <div class="facility_desc">Successful Student Visa achieved</div>
+    </div>
+    <div class="facility">
+      <div class="facility_img"><img
+          src="https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/03/worldwide-1.svg" /></div>
+      <div class="facility_heading">
+        <h4 id="oneFifty">150+</h4>
+      </div>
+      <div class="facility_desc">Universities Tie ups</div>
+    </div>
+    <div class="facility">
+      <div class="facility_img"><img
+          src="https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/03/video-call-1.svg" /></div>
+      <div class="facility_heading">
+        <h4 id="eighteen">18+</h4>
+      </div>
+      <div class="facility_desc">Years of Professional Proficiency.</div>
+    </div>
+    <div class="facility">
+      <div class="facility_img"><img
+          src="https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/03/receipt-1.svg" /></div>
+      <div class="facility_heading">
+        <h4 id="ninetyNine">99%</h4>
+      </div>
+      <div class="facility_desc">Client Satisfaction</div>
+    </div>
+  </div>
+
+  <div class="testimonial-main">
+    <div class="testimonials">
+      <input type="radio" name="testimonial" id="input-testimonial1" checked>
+      <input type="radio" name="testimonial" id="input-testimonial2">
+      <input type="radio" name="testimonial" id="input-testimonial3">
+      <input type="radio" name="testimonial" id="input-testimonial4">
+      <div class="testimonials-inner">
+        <div class="testimonial">
+          <div class="testimonial-photo">
+            <div class="photo-background"></div>
+            <div class="photo-author"></div>
+          </div>
+          <div class="testimonial-text">
+            <p>Wait a second... you're telling me this testimonials slider is powered solely by CSS? That's some
+              next-level web wizardry! I'm sold! Give me that mind-blowing slider to my website!</p>
+            <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+          </div>
+          <div class="testimonial-author">Henry Schwengle</div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-photo">
+            <div class="photo-background"></div>
+            <div class="photo-author"></div>
+          </div>
+          <div class="testimonial-text">
+            <p>The older I get, the more I understand why roosters just scream to start the day.</p>
+            <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+          </div>
+          <div class="testimonial-author">Mr. George Robert</div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-photo">
+            <div class="photo-background"></div>
+            <div class="photo-author"></div>
+          </div>
+          <div class="testimonial-text">
+            <p>Two of my friends have never met each other. Before they spoke, I told both of them that the other is a
+              bit deaf. They shouted at each other for a few minutes before they realized that I'm an asshole.</p>
+            <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+          </div>
+          <div class="testimonial-author">Doodle Wobblepants</div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-photo">
+            <div class="photo-background"></div>
+            <div class="photo-author"></div>
+          </div>
+          <div class="testimonial-text">
+            <p>Turning on your lights and sirens after losing a drag race is just poor sportsmanship, man.</p>
+            <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+          </div>
+          <div class="testimonial-author">John "Vroom" Cena</div>
+        </div>
+      </div>
+      <div class="testimonials-arrows">
+        <div class="arrow arrow-left">
+          <img src="../assets/arrow_left.jpg">
+          <label for="input-testimonial1"></label>
+          <label for="input-testimonial2"></label>
+          <label for="input-testimonial3"></label>
+          <label for="input-testimonial4"></label>
+          <span></span>
+        </div>
+        <div class="arrow arrow-right">
+          <label for="input-testimonial1"></label>
+          <label for="input-testimonial2"></label>
+          <label for="input-testimonial3"></label>
+          <label for="input-testimonial4"></label>
+          <img src="../assets/arrow_right.jpg">
+          <span></span>
+        </div>
+      </div>
+      <div class="testimonials-bullets">
+        <label for="input-testimonial1">
+          <div class="bullet">
+            <div>
+              <span></span>
+            </div>
+          </div>
+        </label>
+        <label for="input-testimonial2">
+          <div class="bullet">
+            <div>
+              <span></span>
+            </div>
+          </div>
+        </label>
+        <label for="input-testimonial3">
+          <div class="bullet">
+            <div>
+              <span></span>
+            </div>
+          </div>
+        </label>
+        <label for="input-testimonial4">
+          <div class="bullet">
+            <div>
+              <span></span>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+    <div id="block" class="countries">
+      <div class="heading">Country</div>
+      <ul>
+        <li><a href="./StudyAbroad/australia.html">Australia</a></li>
+        <li><a href="./StudyAbroad/canada.html">Canada</a></li>
+        <li><a href="./StudyAbroad/newZealand.html">New Zealand</a></li>
+        <li><a href="./StudyAbroad/uk.html">UK</a></li>
+        <li><a href="./StudyAbroad/usa.html">USA</a></li>
+        <li><a href="./StudyAbroad/europe.html">Europe</a></li>
+        <li><a href="./StudyAbroad/dubai.html">Dubai</a></li>
+      </ul>
+    </div>
+    <div id="block" class="services">
+      <div class="heading">Services</div>
+      <ul>
+        <li><a href="#" style="pointer-events: none; opacity: 1;">Test Preparation</a></li>
+        <li><a href="#" style="pointer-events: none; opacity: 1;">Counselling</a></li>
+        <li><a href="#" style="pointer-events: none; opacity: 1;">Admission</a></li>
+        <li><a href="#" style="pointer-events: none; opacity: 1;">Visa Assistance</a></li>
+        <li><a href="#" style="pointer-events: none; opacity: 1;">Interview Preparation</a></li>
+        <li><a href="#" style="pointer-events: none; opacity: 1;">Pre-Departure</a></li>
+      </ul>
+    </div>
+    <div id="block" class="contact">
+      <div class="heading">Contact Us</div>
+      <div class="address">
+        <span>
+          Address:
+        </span>
+        2nd Floor, Shiv Sharnam, Nr. Rutu Ice Cream, A-V road, Anand - 388001
+
+      </div>
+    </div>
+    <div id="block" class="Connect">
+      <div class="heading">Connect</div>
+      <ul>
+        <li><a href="https://www.facebook.com/nineinternational/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/nine_international/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UCkJprx443Zy01p9HN39sbOQ" target="_blank">Youtube</a></li>
+        <li><a href="https://www.linkedin.com/company/nine-internation" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
