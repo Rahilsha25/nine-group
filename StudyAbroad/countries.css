@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_newZ{
+    background-image: url('https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/02/page-title-6.jpg');
+    padding: 80px 0;
+    display: flex;
+    position: relative;
+    background-size: cover !important;
+    justify-content: center;
+}
+
+.header_canada{
+    background-image: url(https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/02/page-title-6.jpg);
+    padding: 80px 0;
+    display: flex;
+    position: relative;
+    background-size: cover !important;
+    justify-content: center;
+}
+
+.header {
+    background-image: url(https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/02/page-title-6.jpg);
+    padding: 80px 0;
+    display: flex;
+    position: relative;
+    background-size: cover !important;
+    justify-content: center;
+}
+
+.header_newZ .heading,
+.header_canada .heading,
+.header .heading {
+    margin-left: 150px;
+    color: #fff;
+    z-index: 2;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    width: fit-content;
+    font-size: 34px;
+}
+
+.contentBox {
+    margin: 5vw auto;
+    width: 80%;
+    display: flex;
+    gap: 5vw;
+}
+
+.shadow {
+    position: absolute;
+    background: black;
+    opacity: 0.32;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 12vw;
+    color: #18425a;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+/* .tab button.active {
+    background-color: #ccc;
+} */
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+    width: 50vw;
+}
+.tabcontent img{
+    width: 800px;
+}
+.vertical_content .tabcontent{
+    padding:0 20px !important;
+    width: auto !important;
+}
+
+.verticalTabs h3{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+.verticalTabs p{
+    margin-top: 2px !important;
+}
+
+.vertical_tab.active{
+    border-right:3px solid #e94d4e;
+}
+
+.tablinks.active{
+    border-bottom:5px solid #e94d4e;
+    color: #e94d4e;
+}
+
+.navigationBox {
+    color: #18425a;
+    padding: 20px;
+    height: 55vh;
+    width: 45vw;
+    background: #f7f5f5;
+    border: 2px solid #e94d4e;
+}
+
+.navigationBox ul {
+    padding-left: 0 !important;
+}
+
+.navigationBox li {
+
+    padding: 8px 0;
+    list-style: none;
+}
+
+.navigationBox li a:hover{
+    background: #e94d4e;
+    color: #fff;
+}
+
+.navigationBox li a {
+    display: block;
+    background: #fff;
+    padding: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #18425a;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.countryInfo_cards {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.countryInfo_card {
+    width: 15vw;
+    height: 35vh;
+    position: relative;
+}
+
+.mid_heading{
+    text-align: center;
+    top: 116px;
+    right: 52px;
+    position: absolute;
+    z-index: 5;
+    background: #fff;
+    width: auto;
+    padding: 20px;
+}
+
+.mid_heading.resident{
+    right: 35px !important;
+}
+
+.mid_heading.diversity{
+    right: 65px !important;
+}
+
+.countryInfo_card img{
+    width: 15vw;
+    height: 20vh;
+}
+
+.mid_heading_desc{
+    position: absolute;
+    text-align: center;
+    top: 149px;
+    padding: 5vh 0;
+    background: #f7f5f5;
+}
+
+.verticalSection{
+    display: flex;
+    gap: 2vw;
+}
+
+.vertical_tabs{
+    background: #f7f5f5;
+}
+
+.vertical_tab h4,.vertical_tab p{
+    margin-bottom: 0 !important;
+}
+
+.vertical_content img{
+    width: 35vw;
+}
+
+.verticalTabs{
+    display: none;
+}
+
+.blocks{
+    display: flex;
+    gap: 2vw;
+}
+
+.block_content{
+    border: 2px solid #2f2c2c54;
+    padding: 10px;
+    width: 7vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: #18425a;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.block_content div{
+    margin-top: 12px;
+}
+
+.block_content:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.gg-check-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 100px
+}
+.gg-check-o::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 3px;
+    top: -1px;
+    width: 6px;
+    height: 10px;
+    border-color: currentColor;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    transform-origin: bottom left;
+    transform: rotate(45deg)
+}
+
+ul li ,p{
+    color:#808080;
+    line-height: 20px;
+}
+
+.contentBox h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #18425a;
+}
+
+.vertical_tab p{
+    margin-top: 2px !important;
+    padding-top: 2px !important;
+}
+
+.vertical_tab h4{
+    color: #18425a;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.vertical_tab:not(:last-child){
+    padding-bottom: 12px;
+    border-bottom: 1px solid #c4bebe;
+}
+
+.vertical_tab{
+    padding: 20px;
+    border-right: 3px solid #18425a;
+}
